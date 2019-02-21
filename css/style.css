@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
+
+/* 새 탭 */
+.clock-back {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-size: 3em;
+    text-align: center;
+}
+
+.clock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10%;
+    margin: auto;
+    padding-bottom: 15%;
+}
+
+.clock > h1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 0.95em;
+    color: white;
+}
+
+.datetime {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.35em;
+}
+
+.date {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.4em;
+}
+
+.no-drag {
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+#whale-whalepage {
+    margin-top: 1em;
+    width: 230px;
+    animation: swing 2s ease-in-out infinite;
+}
+
+/* 애니메이션 */
+@keyframes swing {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
