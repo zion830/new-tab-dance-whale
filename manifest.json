@@ -1,9 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "새 탭을 켜니 고래가 따라온다",
+    "name": "새 탭을 켜니 고래가?!",
     "version": "1.0",
-    "description": "새 탭을 켜면 아기 고래가 마우스 커서를 집요하게 쫒아다닙니다.",
-    "default_locale": "ko",
+    "description": "새 탭을 켜면 아기 고래가 나타나 마우스 커서를 끈질기게 따라다닙니다.",
     "icons": {
       "16": "img/ic_small.png",
       "48": "img/ic_big.png",
