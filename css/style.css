@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR');
 
+html {
+    cursor: url("../img/ic_heart.png"), auto
+}
+
 /* 새 탭 */
 .clock-back {
     background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    font-size: 3em;
+    font-size: 3.5em;
     text-align: center;
 }
 
