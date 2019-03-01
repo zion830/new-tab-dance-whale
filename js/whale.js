@@ -1,7 +1,8 @@
-$(function(){
-    $(document).mousemove(function(e) {
+$(function () {
+    // 마우스 커서 따라다니는 효과
+    $(document).mousemove(function (e) {
         let mouseX = e.pageX;
         let mouseY = e.pageY;
-        $('#aa').css("left", mouseX+15).css("top", mouseY+15).html("x:"+mouseX+" y:"+mouseY);
+        $('#whale-img').css("left", mouseX).css("top", mouseY).html("x:" + mouseX + " y:" + mouseY);
     });
 });
