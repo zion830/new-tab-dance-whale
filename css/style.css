@@ -51,6 +51,11 @@
     animation: swing 2s ease-in-out infinite;
 }
 
+/* 설정 */
+.setting-body {
+    width: 300px;
+}
+
 /* 애니메이션 */
 @keyframes swing {
     0% {

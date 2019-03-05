@@ -1,15 +1,21 @@
 {
-    "manifest_version": 2,
-    "name": "새 탭을 켜니 고래가 따라온다",
-    "version": "1.0",
-    "description": "새 탭을 켜면 아기 고래가 마우스 커서를 집요하게 쫒아다닙니다.",
-    "default_locale": "ko",
-    "icons": {
+  "manifest_version": 2,
+  "name": "새 탭을 켜니 고래가 따라온다",
+  "version": "1.0",
+  "description": "새 탭을 켜면 아기 고래가 마우스 커서를 집요하게 쫒아다닙니다.",
+  "browser_action": {
+    "default_popup": "setting.html",
+    "default_icon": {
       "16": "img/ic_small.png",
+      "32": "img/ic_small.png"
+    },
+    "icons": {
+      "16": "img/ic_big.png",
       "48": "img/ic_big.png",
       "128": "img/ic_big.png"
     },
-    "chrome_url_overrides" : {
+    "chrome_url_overrides": {
       "newtab": "newtab.html"
     }
   }
+}
